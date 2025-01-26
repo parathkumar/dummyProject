@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { PostsHeaderComponent } from './posts-header/posts-header.component';
-import { PostComponent } from './posts-list/post/post.component';
-import { PostsListComponent } from './posts-list/posts-list.component';
 import { PostsComponent } from './posts.component';
+import { PostsHeaderComponent } from './components/posts-header/posts-header.component';
+import { PostComponent } from './components/posts-list/post/post.component';
+import { PostsListComponent } from './components/posts-list/posts-list.component';
 
 
 
