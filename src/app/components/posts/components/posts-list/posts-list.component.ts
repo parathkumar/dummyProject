@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Dummy } from '../../../../shared/constants/constant.enum';
 
 @Component({
   selector: 'app-posts-list',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./posts-list.component.scss']
 })
 export class PostsListComponent {
-
+  dummy = Dummy.hello;
 }
